@@ -12,9 +12,7 @@ public class Main {
         System.out.println("Dividera (3)");
         System.out.println("Multiplicera (4)");
         System.out.println("Modulus (5)");
-        System.out.println("Större än - Endast två tal - (6)");
-        System.out.println("Mindre än - Endast två tal - (7)");
-        System.out.println("Lika med - Endast två tal - (8)");
+        System.out.println("Jämföra två tal (6)");
         System.out.println("EXIT för att avluta programmet");
 
         while (true) {
@@ -53,7 +51,7 @@ public class Main {
                     } else if (input.equals("=") && menu == 5) {
                         Math.modulus(numbers);
                         break;
-                    } else if (input.equals("=") && (menu == 6 || menu == 7 || menu == 8)) {
+                    } else if (input.equals("=") && menu == 6) {
                         Math.largerThan(numbers);
                         break;
                     } else if (input.equalsIgnoreCase("exit")) {
